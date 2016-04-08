@@ -1,0 +1,30 @@
+{
+  "name": "betest1",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register test",
+    "start": "babel-node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^6.0.2",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "mocha-eslint": "^2.0.2",
+    "supertest": "^1.2.0"
+  },
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-node5": "^11.0.1",
+    "babel-register": "^6.7.2",
+    "babel-runtime": "^6.6.1",
+    "body-parser": "^1.15.0",
+    "confidence": "^3.0.0",
+    "express": "^4.13.4",
+    "express-boom": "^0.3.0",
+    "express-force-ssl": "^0.3.1",
+    "getenv": "^0.6.0"
+  }
+}
